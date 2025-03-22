@@ -1,0 +1,26 @@
+#grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .grid-item {
+    border: 2px solid #ddd;
+    height:40px;
+    width: 40px;
+    
+  }
+
+  .row {
+    display: flex;
+  }
+
+ div.grid-item:hover {
+    background-color:grey;
+ }
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
