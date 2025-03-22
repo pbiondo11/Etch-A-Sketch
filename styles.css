@@ -1,18 +1,25 @@
+
 #grid-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    
 }
 
   .grid-item {
     border: 2px solid #ddd;
-    height:40px;
-    width: 40px;
+    height:100%;
+    width: 100%;
     
   }
 
   .row {
     display: flex;
+    height:100%;
+    width: 100%;
   }
 
  div.grid-item:hover {
@@ -24,3 +31,4 @@
     justify-content: center;
     margin-bottom: 10px;
  }
+
